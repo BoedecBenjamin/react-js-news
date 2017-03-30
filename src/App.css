@@ -26,6 +26,11 @@
 .App-content {
     padding: 20px;
 }
+body {
+background-image: url("pokemon.png");
+background-size: 130% 150%;
+}
+
 
 @keyframes App-logo-spin {
     from { transform: rotate(0deg); }

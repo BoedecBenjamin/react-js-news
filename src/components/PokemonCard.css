@@ -1,0 +1,44 @@
+.pokemon-icon {
+    position: absolute;
+    font-size: 125%;
+    right: 10px;
+    top: 10px;
+}
+
+.pokemon-data {
+    padding-right: 60px;
+    font-size: 125%;
+}
+
+.pokemon-data i {
+    margin-right: 5px;
+    color: #ffab40;
+    vertical-align: middle;
+}
+
+.pokemon-data p {
+    margin-bottom: 15px !important;
+}
+
+.pokemon-city {
+    font-size: 22px;
+    pointer-events: none;
+}
+
+.pokemon-img-container {
+
+    min-height: 200px;
+    max-height: 250px !important;
+    overflow: hidden;
+}
+
+.pokemon-img-container .card-title {
+    text-shadow: 0px 2px 3px black;
+}
+
+.pokemon-img {
+
+    min-height: 200px;
+    max-height: 240px;
+    max-width: initial !important;
+}

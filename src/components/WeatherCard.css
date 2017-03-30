@@ -1,30 +1,39 @@
+.weather-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
 
-
-.news-data {
+.weather-data {
     padding-right: 60px;
     font-size: 125%;
 }
 
-.news-data i {
+.weather-data i {
     margin-right: 5px;
     color: #ffab40;
     vertical-align: middle;
 }
 
-.news-data p {
+.weather-data p {
     margin-bottom: 15px !important;
 }
 
-.news-img-container {
+.weather-city {
+    font-size: 22px;
+    pointer-events: none;
+}
+
+.weather-img-container {
     max-width: 200px !important;
     overflow: hidden;
 }
 
-.news-img-container .card-title {
+.weather-img-container .card-title {
     text-shadow: 0px 2px 3px black;
 }
 
-.news-img {
+.weather-img {
     max-height: 240px;
     max-width: initial !important;
 }
